@@ -14,29 +14,31 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    {
-      name: "YouTube",
-      href: "https://www.youtube.com/@itsniloybhowmick",
-      icon: Youtube,
-    },
+    // {
+    //   name: "YouTube",
+    //   href: "https://www.youtube.com/@itsniloybhowmick",
+    //   icon: Youtube,
+    // },
     {
       name: "Instagram",
-      href: "https://instagram.com/its.niloybhowmick",
+      href: "https://instagram.com/syedsaad503",
       icon: Instagram,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/niloy-bhowmick",
+      href: "https://www.linkedin.com/in/muhammad-saad-ahmed-a39bbb334/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       icon: Linkedin,
     },
-    {
-      name: "Twitter",
-      href: "#",
-      icon: Twitter,
-    },
+    // {
+    //   name: "Twitter",
+    //   href: "#",
+    //   icon: Twitter,
+    // },
     {
       name: "Email",
-      href: "mailto:contact.niloybhowmick@gmail.com",
+      // href: "syedsaad20005@gmail.com",
+            href: "",
+
       icon: Mail,
     },
   ];
@@ -48,7 +50,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Niloy Bhowmick
+              Syed Muhammad Saad
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Video Editor and Motion Graphics Designer passionate about
@@ -126,7 +128,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors underline decoration-dotted underline-offset-4"
             >
-              Md. Maruf Sarker
+              Syed Muhammad Saad
             </a>{" "}
             © {currentYear}
           </p>

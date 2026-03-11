@@ -32,7 +32,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed top-0 left-0 right-0 z-[100] flex justify-center transition-all duration-300 ${scrolled ? "pt-4 pb-0" : "pt-5 pb-0"
+      className={`fixed top-0 left-0 right-0 z-100 flex justify-center transition-all duration-300 ${scrolled ? "pt-4 pb-0" : "pt-5 pb-0"
         }`}
     >
       <div
@@ -47,11 +47,11 @@ export default function Navbar() {
         `}>
         <div className="w-full flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className={`p-2 rounded-lg transition-all duration-300 ${scrolled ? "bg-white/5 group-hover:bg-blue-600" : "bg-white/10 group-hover:bg-blue-600"}`}>
+            {/* <div className={`p-2 rounded-lg transition-all duration-300 ${scrolled ? "bg-white/5 group-hover:bg-blue-600" : "bg-white/10 group-hover:bg-blue-600"}`}>
               <Clapperboard />
-            </div>
+            </div> */}
             <span className="text-xl font-bold tracking-tight text-white group-hover:text-blue-200 transition-colors">
-              itsNiloy
+              Syed Muhammad Saad
             </span>
           </Link>
 

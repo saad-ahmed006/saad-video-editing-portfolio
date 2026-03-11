@@ -152,7 +152,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
                         {/* Actions & Metadata */}
                         <div className="mt-auto pt-5 border-t border-white/5 flex items-center justify-between">
-                            <div className="flex items-center space-x-3">
+                            {/* <div className="flex items-center space-x-3">
                                 <div className="w-8 h-8 rounded-full overflow-hidden border border-white/10 bg-white/5 p-1">
                                     <Image
                                         src={project.client_image || "/placeholder.svg"}
@@ -166,7 +166,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                                     <span className="text-xs font-medium text-white line-clamp-1 max-w-[100px] truncate">{project.client_name}</span>
                                     <span className="text-[10px] text-gray-500">{new Date(project.publish_date).toLocaleDateString()}</span>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="flex items-center gap-2">
                                 <Link href={`/project/${project.id}`}>

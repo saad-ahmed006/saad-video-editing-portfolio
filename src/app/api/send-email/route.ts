@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
   const { name, email, message, projectType, timeline } = await req.json();
+// console.log(name , email );
 
   // Validate required fields
   if (!name || !email || !message) {
@@ -53,7 +54,8 @@ export async function POST(req: NextRequest) {
 
     const { data, error } = await resend.emails.send({
       from: "From Portfolio <contact@itsniloy.me>",
-      to: ["contact.niloybhowmick@gmail.com"],
+      // to: ["contact.niloybhowmick@gmail.com"],
+      to: ["contact.saadahmed4465@gmail.com"],
       subject: `New Message from Portfolio - ${projectType || "General Inquiry"}`,
       react: EmailTemplate({ name, email, message, projectType, timeline }),
     });

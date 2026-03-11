@@ -49,7 +49,7 @@ export default function Hero() {
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
                         className="block bg-gradient-to-br from-white via-white to-gray-500 bg-clip-text text-transparent"
                     >
-                        CINEMATIC
+                        VIDEO
                     </motion.span>
                     <motion.span
                         initial={{ opacity: 0, y: 50, rotate: -2 }}

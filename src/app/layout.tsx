@@ -15,33 +15,32 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
-    template: "%s | Niloy Bhowmick",
+    default: "Syed Muhammad Saad – Video Editor & Motion Graphics Designer",
+    template: "%s | Syed Muhammad Saad",
   },
   description:
-    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Niloy Bhowmick specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
+    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Syed Muhammad Saad specializes in DaVinci Resolve, Premiere Pro, and Capcut — delivering cinematic edits, motion graphics, and polished storytelling.",
   keywords: [
-    "Niloy Bhowmick",
+    "Syed Saad Ahmed",
     "Video Editor",
     "Motion Graphics Designer",
     "DaVinci Resolve",
     "Premiere Pro",
-    "After Effects",
     "Color Grading",
     "YouTube Video Editing",
     "Course Video Editing",
     "Logo Animation",
     "Visual Storytelling",
     "Freelance Video Editor",
-    "Bangladesh Video Editor",
+    "Pakistan Video Editor",
     "Cinematic Editing",
     "Content Creator",
     "Lower Thirds",
     "Audio Sync",
   ],
-  authors: [{ name: "Niloy Bhowmick", url: "https://www.itsniloy.me" }],
-  creator: "Niloy Bhowmick",
-  publisher: "Niloy Bhowmick",
+  authors: [{ name: "Syed Muhammad Saad", url: "https://syedmuhammadsaad.vercel.app" }],
+  creator: "Syed Muhammad Saad",
+  publisher: "Syed Muhammad Saad",
   robots: {
     index: true,
     follow: true,
@@ -56,33 +55,32 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.itsniloy.me",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    url: "https://syedmuhammadsaad.vercel.app",
+    title: "Syed Muhammad Saad – Video Editor & Motion Graphics Designer",
     description:
-      "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
-    siteName: "Niloy Bhowmick Portfolio",
+      "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and Capcut.",
+    siteName: "Syed Muhammad Saad Portfolio",
     images: [
       {
-        url: "/niloybhowmick.png",
+        url: "/saadimg1.jpeg",
         width: 1200,
         height: 630,
-        alt: "Niloy Bhowmick - Video Editor",
+        alt: "Syed Muhammad Saad - Video Editor",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    title: "Syed Muhammad Saad – Video Editor & Motion Graphics Designer",
     description:
       "Crafting cinematic edits, motion graphics, and powerful stories. Let's make your content stand out.",
-    creator: "@niloy_bhowmick", // update if you have a real Twitter handle
-    images: ["/niloybhowmick.png"],
+    images: ["/saadimg1.jpeg"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://www.itsniloy.me",
+    canonical: "https://syedmuhammadsaad.vercel.app",
   },
   category: "Video Editing",
 };
@@ -95,8 +93,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        {/* <link rel="icon" href="/public/companies/sl-logo.png" />
+        <link rel="apple-touch-icon" href="/public/companies/sl-logo.png" /> */}
         <meta name="theme-color" content="#020817" />
         <script
           type="application/ld+json"
@@ -104,14 +102,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Niloy Bhowmick",
-              url: "https://www.itsniloy.me",
-              image: "/niloybhowmick.png",
+              name: "Syed Muhammad Saad",
+              url: "https://syedmuhammadsaad.vercel.app",
+              image: "/saadimg1.jpeg",
               sameAs: [
-                "https://www.itsniloy.me",
-                "https://linkedin.com/in/niloybhowmick", // update if available
-                "https://youtube.com/@niloybhowmick", // update if available
-                "https://twitter.com/niloy_bhowmick", // update if available
+                "https://syedmuhammadsaad.vercel.app",
+                "https://www.linkedin.com/in/muhammad-saad-ahmed-a39bbb334/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
               ],
               jobTitle: "Video Editor & Motion Graphics Designer",
               knowsAbout: [
@@ -119,7 +115,7 @@ export default function RootLayout({
                 "Motion Graphics",
                 "DaVinci Resolve",
                 "Adobe Premiere Pro",
-                "Adobe After Effects",
+                "Capcut",
                 "Color Grading",
                 "Audio Syncing",
               ],
@@ -129,7 +125,7 @@ export default function RootLayout({
               },
               alumniOf: {
                 "@type": "Organization",
-                name: "Green University of Bangladesh",
+                name: "University of Karachi",
               },
             }),
           }}

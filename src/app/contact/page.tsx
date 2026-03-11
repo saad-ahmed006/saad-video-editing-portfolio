@@ -93,12 +93,12 @@ export default function ContactPage() {
                       href="mailto:contact.niloybhowmick@gmail.com"
                       className="text-white hover:text-blue-400 transition-colors"
                     >
-                      contact.niloybhowmick@gmail.com
+                      syedsaad20005@gmail.com
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4">
+                {/* <div className="flex items-center space-x-4">
                   <div className="bg-green-600 p-3 rounded-lg">
                     <MessageCircle className="text-white" size={20} />
                   </div>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                       +88 (015) 803-85556
                     </a>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-center space-x-4">
                   <div className="bg-purple-600 p-3 rounded-lg">

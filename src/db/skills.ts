@@ -28,12 +28,20 @@ export const videoEditingSkills = [
     color: "text-purple-400",
   },
   {
-    name: "After Effects",
-    image_link: "/tools/Adobe_After_Effects_CC.png",
-    icon: Sparkles,
-    description: "Motion graphics, visual effects, and advanced animations",
-    color: "text-blue-400",
+    name: "Capcut Pro",
+    image_link: "/tools/Capcut.png",
+    icon: Scissors,
+    description:
+      "Basic to Advanced video editing",
+    color: "text-purple-400",
   },
+  // {
+  //   name: "After Effects",
+  //   image_link: "/tools/Adobe_After_Effects_CC.png",
+  //   icon: Sparkles,
+  //   description: "Motion graphics, visual effects, and advanced animations",
+  //   color: "text-blue-400",
+  // },
   {
     name: "Adobe Photoshop",
     image_link: "/tools/Adobe_Photoshop_CC.png",
@@ -41,13 +49,13 @@ export const videoEditingSkills = [
     description: "Thumbnail design, graphics creation, and image manipulation",
     color: "text-cyan-400",
   },
-  {
-    name: "Adobe Audition",
-    image_link: "/tools/Adobe_Audition_CC.png",
-    icon: Volume2,
-    description: "Audio editing, noise reduction, and sound enhancement",
-    color: "text-green-400",
-  },
+  // {
+  //   name: "Adobe Audition",
+  //   image_link: "/tools/Adobe_Audition_CC.png",
+  //   icon: Volume2,
+  //   description: "Audio editing, noise reduction, and sound enhancement",
+  //   color: "text-green-400",
+  // },
 ];
 
 export const specializations = [
@@ -126,7 +134,7 @@ export const specializations = [
 
 export const achievements = [
   {
-    title: "50+ Projects Completed",
+    title: "30+ Projects Completed",
     description:
       "Successfully delivered over 100 video projects across various industries",
     icon: Award,
